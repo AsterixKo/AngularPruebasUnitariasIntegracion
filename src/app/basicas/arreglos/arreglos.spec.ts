@@ -1,6 +1,6 @@
 import { obtenerRobots } from "./arreglos";
 
-
+// AL PONER UNA x DELANTE SALTARÍA LA PRUEBA Y NO LA EJECUTARÁ
 describe('Pruebas de arreglos', () => {
 
     it('Debe de retornar al menos 3 robots', () => {
@@ -11,7 +11,8 @@ describe('Pruebas de arreglos', () => {
         expect(res.length).toBeGreaterThanOrEqual(3);
     });
 
-    it('Debe de existir MegaMan y Ultron', () => {
+    // AL PONER UNA x DELANTE SALTARÍA LA PRUEBA Y NO LA EJECUTARÁ
+    xit('Debe de existir MegaMan y Ultron', () => {
 
         const res = obtenerRobots();
 
